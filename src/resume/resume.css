@@ -21,6 +21,13 @@
     width: 500px;
     height: 400px;
     margin: 0;
+    border-radius: 15px;
+    box-shadow: 20px 25px 20px 1px rgba(0, 0, 0, 0.2);
+    opacity: 90%;
+}
+
+.image-profiler:hover{
+    opacity: 100%;
 }
 
 .text-box {
