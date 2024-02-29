@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+p {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    line-height: 1px;
+    letter-spacing: -4px;
+    color: var(--branco);
+}
+
+.web-text {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+    color: var(--roxo-claro);
+    margin-bottom: 65px;
+}
+
+span {
+    color: var(--branco);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.info {
+    margin-top: -50px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.icon {
+    margin-top: 25px;
+    margin-left: -05px;
+    width: 50px;
+    height: 50px;
+}
+
+.downloadCV {
+    margin-top: 25px;
+    margin-left: -05px;
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, var(--roxo-escuro), var(--roxo-claro));
+    color: var(--branco);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    border: none;
+}
+
+.downloadCV:hover{
+    width: 255px;
+    height: 65px;
+}
+
+.notebookImg {
+    margin-left: -150px;
+    width: 700px;
+    height: 700px;
+}

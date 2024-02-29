@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --preto: #0D0D0D;
+  --branco: #F2F2F2;
+  --roxo-escuro: #32088C;
+  --roxo-medio: #550CF2;
+  --roxo-claro: #7B44F2;
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #6c377b #13021d;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #13021d;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #6c377b;
+    border-radius: 10px;
+    border: 0px solid #ffffff;
+  }
