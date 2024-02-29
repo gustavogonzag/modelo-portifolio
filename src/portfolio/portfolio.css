@@ -1,3 +1,31 @@
-.titlePort{
-    font-size: 40px !important;
+.port-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titlePort {
+    color: var(--branco);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.imagesProjects {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.image-project {
+    margin: 0;
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 20px 25px 20px 1px rgba(0, 0, 0, 0.2);
 }
