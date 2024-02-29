@@ -1,0 +1,39 @@
+.resume-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 130px;
+    gap: 45px;
+}
+
+.resumePort {
+    margin: 0;
+    color: var(--branco);
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+}
+
+.image-profiler {
+    width: 500px;
+    height: 400px;
+    margin: 0;
+}
+
+.text-box {
+    margin-top: -105px;
+    width: 590px;
+    height: 310px;
+}
+
+.text-resume {
+    margin: 0px;
+    color: var(--branco);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
