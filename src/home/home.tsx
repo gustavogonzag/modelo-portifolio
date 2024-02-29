@@ -15,9 +15,9 @@ const home = () => {
                     <span className='info'>Front-end developer | Javascript | React </span>
                 </div>
                 <div className="icons">
-                    <img className='icon' src={iconInstagram} alt="iconeInstagram" />
-                    <img className='icon' src={iconLinkedin} alt="iconeLinkedin" />
-                    <img className='icon' src={iconGithub} alt="iconeGithub" />
+                    <img className='icon' src={iconInstagram} alt="iconeInstagram" title='Instagram' />
+                    <img className='icon' src={iconLinkedin} alt="iconeLinkedin" title='LinkedIn'/>
+                    <img className='icon' src={iconGithub} alt="iconeGithub" title='Github' />
                 </div>
                 <button className='downloadCV'>DOWNLOAD CV</button>
             </div>
