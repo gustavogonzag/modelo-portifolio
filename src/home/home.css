@@ -77,3 +77,20 @@ span {
     width: 700px;
     height: 700px;
 }
+
+@media (max-width: 1024px) {
+    .home-container{
+        margin-left: 150px;
+    }
+    .notebookImg{
+        margin-left: 20px;
+    }
+    .text-home-white{
+        font-size: 60px;
+    }
+    .web-text{
+        margin-top: 04px;
+        font-size: 60px;
+    }
+
+}

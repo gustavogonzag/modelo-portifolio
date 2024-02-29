@@ -3,3 +3,9 @@
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 10240px) {
+    .footerzin{
+        margin-left: 110px;
+    }
+}

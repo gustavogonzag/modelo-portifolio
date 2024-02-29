@@ -37,3 +37,16 @@ a:hover {
     color: #FFFFFF;
     text-decoration: underline;
 }
+
+@media (max-width: 1024px) {
+    img {
+        margin-left: 50px;
+    }
+    .topo{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav{
+      margin-left: 300px;  
+    }
+}
